@@ -3,17 +3,31 @@ body {
   margin: 0;
   padding: 0;
   color: rgb(58,58,58);
+  word-wrap: normal;
 }
-header {
-  background-color: rgb(44,154,183);
-}
-header:not(nav) {
+header section {
   color: white;
+  background-color: rgb(44,154,183);
+  padding: 2rem 6rem 3rem;
+}
+header section h1 {
+  font-size: 4rem;
+}
+header section h2 {
+  font-size: 2rem;
+  font-style: italic;
+}
+header h2 {
+  font-weight: normal;
 }
 nav {
   background-color: rgb(235,235,235);
+  color: rgb(77,77,77);
+  text-decoration: none;
+  padding: 2rem 6rem 2rem;
 }
 nav a {
+  font-weight: bold;
   color: rgb(77,77,77);
   text-decoration: none;
 }
