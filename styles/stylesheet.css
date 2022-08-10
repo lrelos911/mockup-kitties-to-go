@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  color: rgb(58,58,58);
+}
+header {
+  background-color: rgb(44,154,183);
+}
+header:not(nav) {
+  color: white;
+}
+nav {
+  background-color: rgb(235,235,235);
+}
+nav a {
+  color: rgb(77,77,77);
+  text-decoration: none;
+}
+.highlight-heading {
+  color: rgb(35,154,183);
+}
+.highlight-content {
+  color: rgb(44,154,183);
+}
+.highlight-quote {
+  color: rgb(82, 186, 213);
+}
+footer {
+  background-color: rgb(58,58,58);
+  color: white;
+}
