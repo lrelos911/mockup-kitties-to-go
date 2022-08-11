@@ -13,6 +13,10 @@ header section {
   background-color: rgb(44,154,183);
   padding: 2rem 10rem 3rem;
 }
+header.kitty-profiles section {
+  background-image: url("../images/lesson04-mock2-banner-image.jpg");
+  background-size: cover;
+}
 header section h1 {
   font-size: 4rem;
 }
@@ -71,9 +75,24 @@ aside section figure img {
 .highlight-quote {
   color: rgb(82, 186, 213);
 }
+.profile figure {
+  margin-left: 0;
+}
+.profile figure * {
+  width: 30%;
+}
+.profile .description {
+  position: absolute;
+  left: 27%;
+  padding-right: 15rem;
+}
 footer {
   background-color: rgb(58,58,58);
   padding: 4rem 1.5rem 4rem;
+}
+footer.kitty-profiles {
+  background-image: url("../images/lesson04-mock4-footer-image.jpg");
+  background-size: cover;
 }
 .footer-content {
   margin-left: auto;
